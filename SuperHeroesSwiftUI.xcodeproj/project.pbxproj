@@ -11,6 +11,11 @@
 		852A64562BAE3AA3003823AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A64552BAE3AA3003823AC /* ContentView.swift */; };
 		852A64582BAE3AA5003823AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852A64572BAE3AA5003823AC /* Assets.xcassets */; };
 		852A645B2BAE3AA5003823AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852A645A2BAE3AA5003823AC /* Preview Assets.xcassets */; };
+		852A64662BAE3B18003823AC /* SuperHeroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 852A64652BAE3B18003823AC /* SuperHeroes.json */; };
+		852A64682BAE40BF003823AC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A64672BAE40BF003823AC /* Model.swift */; };
+		852A646A2BAE410B003823AC /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A64692BAE410B003823AC /* JSONLoader.swift */; };
+		852A646C2BAE4170003823AC /* HeroeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A646B2BAE4170003823AC /* HeroeCard.swift */; };
+		852A646E2BAE4188003823AC /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A646D2BAE4188003823AC /* PreviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		852A64552BAE3AA3003823AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		852A64572BAE3AA5003823AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		852A645A2BAE3AA5003823AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		852A64652BAE3B18003823AC /* SuperHeroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SuperHeroes.json; sourceTree = "<group>"; };
+		852A64672BAE40BF003823AC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		852A64692BAE410B003823AC /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		852A646B2BAE4170003823AC /* HeroeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeCard.swift; sourceTree = "<group>"; };
+		852A646D2BAE4188003823AC /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,10 @@
 		852A64522BAE3AA3003823AC /* SuperHeroesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				852A64642BAE3B04003823AC /* View */,
+				852A64632BAE3AFE003823AC /* Interactor */,
+				852A64622BAE3AFA003823AC /* Model */,
+				852A64612BAE3AF4003823AC /* Data */,
 				852A64532BAE3AA3003823AC /* SuperHeroesSwiftUIApp.swift */,
 				852A64552BAE3AA3003823AC /* ContentView.swift */,
 				852A64572BAE3AA5003823AC /* Assets.xcassets */,
@@ -63,8 +77,41 @@
 			isa = PBXGroup;
 			children = (
 				852A645A2BAE3AA5003823AC /* Preview Assets.xcassets */,
+				852A646D2BAE4188003823AC /* PreviewData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		852A64612BAE3AF4003823AC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				852A64652BAE3B18003823AC /* SuperHeroes.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		852A64622BAE3AFA003823AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				852A64672BAE40BF003823AC /* Model.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		852A64632BAE3AFE003823AC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				852A64692BAE410B003823AC /* JSONLoader.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		852A64642BAE3B04003823AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				852A646B2BAE4170003823AC /* HeroeCard.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852A64662BAE3B18003823AC /* SuperHeroes.json in Resources */,
 				852A645B2BAE3AA5003823AC /* Preview Assets.xcassets in Resources */,
 				852A64582BAE3AA5003823AC /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852A646A2BAE410B003823AC /* JSONLoader.swift in Sources */,
+				852A64682BAE40BF003823AC /* Model.swift in Sources */,
+				852A646E2BAE4188003823AC /* PreviewData.swift in Sources */,
+				852A646C2BAE4170003823AC /* HeroeCard.swift in Sources */,
 				852A64562BAE3AA3003823AC /* ContentView.swift in Sources */,
 				852A64542BAE3AA3003823AC /* SuperHeroesSwiftUIApp.swift in Sources */,
 			);
