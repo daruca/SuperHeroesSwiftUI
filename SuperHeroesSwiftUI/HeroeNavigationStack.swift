@@ -1,15 +1,16 @@
 //
-//  ContentView.swift
+//  HeroeNavigationStack.swift
 //  SuperHeroesSwiftUI
 //
-//  Created by David Rubio on 22/3/24.
+//  Created by David Rubio on 23/3/24.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HeroeNavigationStack: View {
     
     let heroes = getHeroes()
+    
     var body: some View {
         NavigationStack {
             List {
@@ -29,5 +30,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    HeroeNavigationStack()
 }

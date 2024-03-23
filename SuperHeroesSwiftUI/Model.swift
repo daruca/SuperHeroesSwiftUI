@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Heroe: Codable, Identifiable {
+struct Heroe: Codable, Identifiable, Hashable {
     
     let id: UUID
     let nombreReal: String
@@ -17,5 +17,8 @@ struct Heroe: Codable, Identifiable {
     let poderes: [String]
     let imagen: String
     
+    var tipoPoderes: String {
+        poderes.formatted(.list(type: .and))
+    }
     
 }

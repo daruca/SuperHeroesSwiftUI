@@ -16,7 +16,26 @@
 		852A646A2BAE410B003823AC /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A64692BAE410B003823AC /* JSONLoader.swift */; };
 		852A646C2BAE4170003823AC /* HeroeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A646B2BAE4170003823AC /* HeroeCard.swift */; };
 		852A646E2BAE4188003823AC /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A646D2BAE4188003823AC /* PreviewData.swift */; };
+		852A64982BAEDB13003823AC /* HeroeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A64972BAEDB13003823AC /* HeroeDetails.swift */; };
+		852A649A2BAEDCE9003823AC /* HeroeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A64992BAEDCE9003823AC /* HeroeGridView.swift */; };
+		852A649C2BAEE182003823AC /* HeroeGridCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A649B2BAEE182003823AC /* HeroeGridCard.swift */; };
+		852A649E2BAEE28A003823AC /* HeroeAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A649D2BAEE28A003823AC /* HeroeAvatar.swift */; };
+		852A64A02BAEE3DD003823AC /* HeroeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A649F2BAEE3DD003823AC /* HeroeTabView.swift */; };
+		852A64A22BAEE4B4003823AC /* HeroeNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A64A12BAEE4B4003823AC /* HeroeNavigationStack.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		852A64962BAED846003823AC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		852A64502BAE3AA3003823AC /* SuperHeroesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +48,12 @@
 		852A64692BAE410B003823AC /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
 		852A646B2BAE4170003823AC /* HeroeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeCard.swift; sourceTree = "<group>"; };
 		852A646D2BAE4188003823AC /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		852A64972BAEDB13003823AC /* HeroeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeDetails.swift; sourceTree = "<group>"; };
+		852A64992BAEDCE9003823AC /* HeroeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeGridView.swift; sourceTree = "<group>"; };
+		852A649B2BAEE182003823AC /* HeroeGridCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeGridCard.swift; sourceTree = "<group>"; };
+		852A649D2BAEE28A003823AC /* HeroeAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeAvatar.swift; sourceTree = "<group>"; };
+		852A649F2BAEE3DD003823AC /* HeroeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeTabView.swift; sourceTree = "<group>"; };
+		852A64A12BAEE4B4003823AC /* HeroeNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeNavigationStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +135,12 @@
 			isa = PBXGroup;
 			children = (
 				852A646B2BAE4170003823AC /* HeroeCard.swift */,
+				852A64972BAEDB13003823AC /* HeroeDetails.swift */,
+				852A64992BAEDCE9003823AC /* HeroeGridView.swift */,
+				852A649B2BAEE182003823AC /* HeroeGridCard.swift */,
+				852A649D2BAEE28A003823AC /* HeroeAvatar.swift */,
+				852A649F2BAEE3DD003823AC /* HeroeTabView.swift */,
+				852A64A12BAEE4B4003823AC /* HeroeNavigationStack.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -124,6 +155,7 @@
 				852A644C2BAE3AA3003823AC /* Sources */,
 				852A644D2BAE3AA3003823AC /* Frameworks */,
 				852A644E2BAE3AA3003823AC /* Resources */,
+				852A64962BAED846003823AC /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -186,9 +218,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				852A646A2BAE410B003823AC /* JSONLoader.swift in Sources */,
+				852A64982BAEDB13003823AC /* HeroeDetails.swift in Sources */,
+				852A649E2BAEE28A003823AC /* HeroeAvatar.swift in Sources */,
+				852A649A2BAEDCE9003823AC /* HeroeGridView.swift in Sources */,
+				852A64A02BAEE3DD003823AC /* HeroeTabView.swift in Sources */,
 				852A64682BAE40BF003823AC /* Model.swift in Sources */,
+				852A64A22BAEE4B4003823AC /* HeroeNavigationStack.swift in Sources */,
 				852A646E2BAE4188003823AC /* PreviewData.swift in Sources */,
 				852A646C2BAE4170003823AC /* HeroeCard.swift in Sources */,
+				852A649C2BAEE182003823AC /* HeroeGridCard.swift in Sources */,
 				852A64562BAE3AA3003823AC /* ContentView.swift in Sources */,
 				852A64542BAE3AA3003823AC /* SuperHeroesSwiftUIApp.swift in Sources */,
 			);
@@ -319,6 +357,8 @@
 		852A645F2BAE3AA5003823AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -339,15 +379,20 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.daruca.SuperHeroesSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator driverkit iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
 		852A64602BAE3AA5003823AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -368,9 +413,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.daruca.SuperHeroesSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator driverkit iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Release;
 		};
